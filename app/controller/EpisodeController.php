@@ -6,10 +6,9 @@
  * Time: 13:33
  */
 
-namespace Controller;
+namespace App\controller;
 
-
-use App\Episodes;
+use App\model\Episodes;
 
 class EpisodeController extends Episodes
 {
