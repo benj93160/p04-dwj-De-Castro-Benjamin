@@ -6,7 +6,9 @@
  * Time: 16:42
  */
 
-namespace App;
+namespace App\model;
+
+
 use \PDO;
 
 class Episodes extends DataBase

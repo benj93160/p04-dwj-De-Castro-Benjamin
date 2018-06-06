@@ -6,8 +6,9 @@
  * Time: 22:33
  */
 
-namespace App;
+namespace App\model;
 use \PDO;
+
 
 class DataBase
 {
