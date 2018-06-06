@@ -1,0 +1,6 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/home/projetsoex/www/p-04/admin/.htpasswd"
+Require valid-user
+ErrorDocument 401  http://p-04.projets-openclassrooms.com/index.php?page=erreur&erreur=401
+ErrorDocument 500  http://p-04.projets-openclassrooms.com/index.php?page=erreur&erreur=500
